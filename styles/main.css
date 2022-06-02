@@ -1,0 +1,20 @@
+.fish__image {
+    width: 300px;
+}
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fish_card {
+    border: 2px solid black;
+    padding: 1em;
+    margin: 0.5em;
+}
+body {
+    background-color: aqua;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
