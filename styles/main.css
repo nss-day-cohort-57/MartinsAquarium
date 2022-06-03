@@ -1,5 +1,6 @@
 .fish__image {
     width: 300px;
+    border: 2px solid black
 }
 .fishList {
     display: flex;
@@ -7,12 +8,13 @@
     justify-content: space-evenly;
 }
 .fish_card {
-    border: 2px solid black;
+    border: 2px solid darkblue;
     padding: 1em;
     margin: 0.5em;
+    background-color:cornflowerblue;
 }
 body {
-    background-color: aqua;
+    background-color:antiquewhite;
 }
 .title {
     display: flex;

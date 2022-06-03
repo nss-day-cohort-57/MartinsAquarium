@@ -28,7 +28,7 @@ const database = {
             length: 5,
             species: "Tuna",
             location: "Ocean",
-            image: "tuna.jpg"
+            image: "tuna2.webp"
         },
         {
             name: "Bort",
