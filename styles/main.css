@@ -1,22 +1,96 @@
-.fish__image {
-    width: 300px;
-    border: 2px solid black
+body {
+    background-color: antiquewhite;
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.fishpage {
+    display: flex;
+}
+
 .fishList {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .fish_card {
     border: 2px solid darkblue;
     padding: 1em;
     margin: 0.5em;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
+    font-weight: bold;
 }
-body {
-    background-color:antiquewhite;
+
+.fish__image {
+    width: 250px;
+    border: 2px solid black
 }
-.title {
+
+.fishtips {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    border: 2px solid darkcyan;
+    padding: 1em;
+    margin: 0.5em;
+    background-color: lightcyan;
+    justify-content: space-around;
+}
+
+.quotesFooter {
     display: flex;
     justify-content: center;
+    border: 2px solid saddlebrown;
+    padding: 1em;
+    margin: 0.5em;
+    background-color: tan;
+}
+
+.quotesHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.footerpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.locationHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.locationFooter {
+    display: flex;
+    justify-content: center;
+    border: 2px solid navy;
+    padding: 1em;
+    margin: 0.5em;
+    background-color: deepskyblue;
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.location {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.locationPic {
+    width: 350px;
 }
