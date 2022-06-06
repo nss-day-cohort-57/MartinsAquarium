@@ -50,5 +50,5 @@ const database = {
 }
 
 export const getFish = () => {
-    return database.fish.map(fish => ({...fish}))
+    return database.fish.map(fish => ({ ...fish }))
 }
